@@ -1,0 +1,48 @@
+{
+  "name": "vhas",
+  "version": "1.0.0",
+  "description": "Checks whether a collection contains a value.",
+  "keywords": [
+    "has",
+    "value",
+    "collection",
+    "array",
+    "iterator",
+    "map",
+    "object",
+    "set",
+    "string",
+    "typed array",
+    "WeakSet"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/vhas",
+  "repository": "lamansky/vhas",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=8.3.0"
+  },
+  "dependencies": {
+    "@lamansky/some": "^1.0.0",
+    "is-instance-of": "^1.0.1",
+    "iterify": "^1.0.0",
+    "typed-arrays": "^1.0.0",
+    "vget": "^1.0.0",
+    "xfn": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
